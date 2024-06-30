@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 # Change your executable name to something creative!
-set(NAME pico-boilerplate) # <-- Name your project/executable here!
+set(NAME firmwareTurret) # <-- Name your project/executable here!
 
 include(pico_sdk_import.cmake)
 include(pimoroni_pico_import.cmake)
@@ -16,23 +16,35 @@ pico_sdk_init()
 
 # Add your source files
 add_executable(${NAME}
-    main.cpp # <-- Add source files here!
+    # motor2040_quad_velocity_sequence.cpp
+    # chatgptexample.cpp
+    # serial_test.cpp
+    serial_motor.cpp # <-- Add source files here!
 )
 
 # Include required libraries
 # This assumes `pimoroni-pico` is stored alongside your project
 include(common/pimoroni_i2c)
 include(common/pimoroni_bus)
+include(drivers/button/button)
+include(drivers/pid/pid)
 include(libraries/bitmap_fonts/bitmap_fonts)
 include(libraries/hershey_fonts/hershey_fonts)
 include(libraries/pico_explorer/pico_explorer)
+include(libraries/motor2040/motor2040)
 
 # Don't forget to link the libraries you need!
 target_link_libraries(${NAME}
     pimoroni_i2c
-    pico_explorer # <-- List libraries here!
+    pico_explorer
+    motor2040
+    button
+    pid
+    pico_stdlib
+     # <-- List libraries here!
 )
-
+pico_enable_stdio_usb(firmwareTurret 1)
+pico_enable_stdio_uart(firmwareTurret 0)
 # create map/bin/hex file etc.
 pico_add_extra_outputs(${NAME})
 
