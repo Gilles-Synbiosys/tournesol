@@ -4,3 +4,9 @@ build/*
 *Cache*
 */venv/*
 */venv
+
+motor2040_led_rainbow.cpp
+motor2040_position_on_velocity_control.cpp
+serial_binary_test.cpp
+serial_motor copy.cpp
+serial_motor_pos_vel.cpp
