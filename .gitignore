@@ -10,3 +10,15 @@ motor2040_position_on_velocity_control.cpp
 serial_binary_test.cpp
 serial_motor copy.cpp
 serial_motor_pos_vel.cpp
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_deps
+generated
+Makefile
+pico_flash_region.ld
+pico-sdk
+pioasm
+pioasm-install
