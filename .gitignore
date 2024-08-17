@@ -22,3 +22,21 @@ pico_flash_region.ld
 pico-sdk
 pioasm
 pioasm-install
+CMakeLists_ref.txt
+apa102.pio.h
+CMakeCache.txt
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+encoder.pio.h
+firmwareTurret.bin
+firmwareTurret.dis
+firmwareTurret.elf
+firmwareTurret.elf.map
+# firmwareTurret.uf2
+libbitmap_fonts.a
+libpico_graphics.a
+Makefile
+pwm_cluster.pio.h
+st7789_parallel.pio.h
+ws2812.pio.h
