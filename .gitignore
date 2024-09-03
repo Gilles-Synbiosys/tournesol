@@ -40,3 +40,5 @@ Makefile
 pwm_cluster.pio.h
 st7789_parallel.pio.h
 ws2812.pio.h
+venv
+*/serialPlot.py

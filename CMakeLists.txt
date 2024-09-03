@@ -20,6 +20,7 @@ add_executable(${NAME}
     # chatgptexample.cpp
     # serial_test.cpp
     serial_binary_test.cpp
+    # motor2040_position_on_velocity_control.cpp
     # serial_motor.cpp # <-- Add source files here!
 )
 
