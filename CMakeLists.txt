@@ -19,9 +19,9 @@ add_executable(${NAME}
     # motor2040_quad_velocity_sequence.cpp
     # chatgptexample.cpp
     # serial_test.cpp
-    serial_binary_test.cpp
+    # serial_binary_test.cpp
     # motor2040_position_on_velocity_control.cpp
-    # serial_motor.cpp # <-- Add source files here!
+    serial_motor.cpp # <-- Add source files here!
 )
 
 # Include required libraries
