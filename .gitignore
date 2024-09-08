@@ -3,7 +3,9 @@ build/*
 *cache*
 *Cache*
 */venv/*
-*/venv
+*/venv*
+*/venv2/*
+
 
 motor2040_led_rainbow.cpp
 motor2040_position_on_velocity_control.cpp
@@ -41,4 +43,5 @@ pwm_cluster.pio.h
 st7789_parallel.pio.h
 ws2812.pio.h
 venv
+venv2
 */serialPlot.py
