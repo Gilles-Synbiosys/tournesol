@@ -1,7 +1,7 @@
 Tournesol is an ongoing open source turret project. it provides a plateform for various application using of the shelf component.
 
 
-[![Turret demo](https://i.sstatic.net/q3ceS.png)](https://youtube.com/shorts/8F_CqU9SZ6w "Tournesol demo")
+[![Turret demo]()](https://youtube.com/shorts/8F_CqU9SZ6w "Tournesol demo")
 
 
 
