@@ -1,8 +1,7 @@
 Tournesol is an ongoing open source turret project. it provides a plateform for various application using of the shelf component.
 
 
-[![Turret demo]()](https://youtube.com/shorts/8F_CqU9SZ6w "Tournesol demo")
-
+# [Turret demo Video Link](https://youtube.com/shorts/8F_CqU9SZ6w)
 
 
 
@@ -22,6 +21,7 @@ Except explicit mention of it, all the content under is copy paste from [the ori
 
 This project is intended as a starting point for working with the Pico SDK and Pimoroni Libraries in C++.
 
+- [Turret demo Video Link](#turret-demo-video-link)
 - [Boilerplate use](#boilerplate-use)
     - [Before you start](#before-you-start)
     - [Preparing your build environment](#preparing-your-build-environment)
