@@ -10,7 +10,7 @@ Tournesol is an ongoing open source turret project. it provides a plateform for 
 
 # [Turret demo Video Link](https://youtube.com/shorts/8F_CqU9SZ6w)
 
-
+# Code and firmware
 
 Most of the code for the firmware is from [the pimoroni boilerplate for the pico](https://github.com/pimoroni/pico-boilerplate).
 
@@ -30,6 +30,7 @@ This project is intended as a starting point for working with the Pico SDK and P
 
 - [Component list](#component-list)
 - [Turret demo Video Link](#turret-demo-video-link)
+- [Code and firmware](#code-and-firmware)
 - [Boilerplate use](#boilerplate-use)
     - [Before you start](#before-you-start)
     - [Preparing your build environment](#preparing-your-build-environment)
