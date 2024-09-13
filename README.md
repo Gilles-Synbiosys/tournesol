@@ -1,5 +1,12 @@
 Tournesol is an ongoing open source turret project. it provides a plateform for various application using of the shelf component.
 
+# Component list
+
+- CAD files are available in this repo
+- [Motor 2040 from pimoroni](https://shop.pimoroni.com/products/motor-2040?variant=39884997853267)
+- [Motor with encoders on Aliexpress](https://www.aliexpress.com/item/1005002439195511.html?spm=a2g0o.order_detail.order_detail_item.3.3d0af19cxV2Kyp)
+- [Ball Bearing on Amazon](https://www.amazon.co.uk/gp/product/B07FXWTST2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 
+
 
 # [Turret demo Video Link](https://youtube.com/shorts/8F_CqU9SZ6w)
 
@@ -21,6 +28,7 @@ Except explicit mention of it, all the content under is copy paste from [the ori
 
 This project is intended as a starting point for working with the Pico SDK and Pimoroni Libraries in C++.
 
+- [Component list](#component-list)
 - [Turret demo Video Link](#turret-demo-video-link)
 - [Boilerplate use](#boilerplate-use)
     - [Before you start](#before-you-start)
